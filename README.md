@@ -1,2 +1,12 @@
 # Cpp-crash-course
-Includes basic C++ programs during the course of learning
+
+```
+#include<iostream>
+using namespace std;
+
+int main(){
+cout<<"Hello World";
+
+return 0;
+}
+```
