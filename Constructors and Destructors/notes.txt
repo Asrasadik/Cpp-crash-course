@@ -1,0 +1,11 @@
+1. constructors should always be created in public section
+2. A constructor in C++ is a special method that is automatically called when an object of a class is created.
+3. A constructor is a member function of a class which initializes objects of a class
+4. constructor is to initialize the values
+5. if we do not create constructor compiler creates it own-- some compilers give default value as 0 or garbage value in this case garbage value is correct answer
+
+6.worng information on inernet is conversion constructor needs only one parameter
+7.
+8.
+
+5. 
