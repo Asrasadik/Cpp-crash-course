@@ -5,7 +5,10 @@
 5. if we do not create constructor compiler creates it own-- some compilers give default value as 0 or garbage value in this case garbage value is correct answer
 
 6.worng information on inernet is conversion constructor needs only one parameter
-7.
+
+//copy constructor
+7.when we create our own constructor then copmiler does not create its constructor like if we create parameterised constructor  compiler doesnot create default constructor we have to create on our own. so we need to create default constructor (refer 1.sample1.cpp in copy constructor)
+
 8.
 
 9.
