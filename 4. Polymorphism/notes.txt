@@ -1,0 +1,9 @@
+(static/early binding)->during compilation -> compile time polymorphism
+(dynamic/late binding)->during running -> run time polymorphism
+
+benifits of function overloading:
+1. naming burden
+2. reuse
+3. readability
+
+
