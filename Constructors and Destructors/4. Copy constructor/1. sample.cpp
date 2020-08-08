@@ -47,4 +47,6 @@ int main(){
 	cout<<"p2.x= "<<p2.getX()<<", p2.y= "<<p2.gety()<<endl;
 	cout<<"p3.x= "<<p3.getX()<<", p3.y= "<<p3.gety()<<endl;
 	cout<<"p4.x= "<<p4.getX()<<", p4.y= "<<p4.gety()<<endl;
+	
+	return 0;
 }
