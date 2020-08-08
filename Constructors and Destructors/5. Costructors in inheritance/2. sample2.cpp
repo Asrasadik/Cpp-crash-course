@@ -2,8 +2,11 @@
 using namespace std;
 
 class Parent{
+	int x;
 	public:
-		Parent(){//first
+		Parent(int i){//first
+		x=i;
+		cout<<"x value: "<<x<<endl;
 			cout<<"Parent constructor is called"<<endl;
 		}
 		~Parent(){//fourth
@@ -12,8 +15,12 @@ class Parent{
 };
 
 class Child: public Parent{
+	int y;
 	public:
-		Child(){//second
+		Child(int a):Parent(a)
+		{//second
+		y=a;
+		cout<<"y value: "<<y<<endl;
 			cout<<"Child constructor is called"<<endl;
 		}
 		~Child(){//third
@@ -22,7 +29,7 @@ class Child: public Parent{
 };
 
 int main(){
-	Child obj;/*automatically executes all parent, child, grandparent class
+	Child obj(10);/*automatically executes all parent, child, grandparent class
 	constructor and destructor becaues of inheritance*/
 	
 	return 0;
