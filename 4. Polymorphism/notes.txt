@@ -6,4 +6,11 @@ benifits of function overloading:
 2. reuse
 3. readability
 
+// operator overloading
+//basic types of overloading are:-
+* unary
+* binary
+* relational
+
+
 
