@@ -12,5 +12,8 @@ benifits of function overloading:
 * binary
 * relational
 
+// in binary operator overloading
+called by before op and passed to operator overloading by after
+
 
 
