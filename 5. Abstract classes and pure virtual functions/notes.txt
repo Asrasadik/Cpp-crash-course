@@ -1,0 +1,10 @@
+A class that exists but that does not have any implementation at all 
+programmers use this abstract class because all the variables are in parent class 
+and implementation in child class
+
+abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). // this is incorrect
+
+abstract calss is that class which has no implementation-->>
+
+
+they created pure vitrual function because to main good archicture of code
