@@ -15,5 +15,13 @@ benifits of function overloading:
 // in binary operator overloading
 called by before op and passed to operator overloading by after
 
+//function overriding
+static resolution
+property of static resolution is early binding
+since the pointer is of parent class it exhibits the behaviour of static resolution
+it binds the parent class function to the object at compile time 
+
+* runtime poly is achieved using virtual keyword
+*decision is made at run time hence runtime poly
 
 
